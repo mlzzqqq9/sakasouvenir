@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog | Saka Souvenir</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-vp4nU5jJrNxU/vP3UzF6QyR8OKiZfVZFtDrs4MP2CnlU8YPasHtEpCglnR/MTqgIM+lObA64yko88jpUL8zkqw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    body { font-family: 'Poppins', sans-serif; }
+  </style>
+</head>
+<body class="bg-white text-gray-800">
+
+<header class="fixed top-0 left-0 w-full z-50 bg-white/80 backdrop-blur-md shadow-sm">
+  <div class="max-w-7xl mx-auto flex justify-between items-center py-4 px-6 relative">
+
+    <!-- Logo -->
+    <a href="index.html" class="flex items-center flex-shrink-0">
+      <img src="assets/img/logo.png" alt="Logo Saka Souvenir" class="h-12 w-auto" />
+    </a>
+
+    <!-- NAVBAR DESKTOP - Di tengah -->
+    <nav class="hidden md:flex space-x-6 items-center absolute left-1/2 -translate-x-1/2 text-gray-800">
+      <a href="index.html" class="nav-link hover:text-blue-500">Beranda</a>
+      <a href="tentang-kami.html" class="nav-link hover:text-blue-500">About Us</a>
+      <a href="blog.html" class="nav-link hover:text-blue-500">Blog</a>
+      <a href="produk.html" class="nav-link hover:text-blue-500">Produk</a>
+    </nav>
+
+    <!-- Tombol hamburger -->
+    <button id="menuToggle" class="md:hidden text-gray-800 focus:outline-none z-50">
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2"
+        viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+    </button>
+  </div>
+
+  <!-- MOBILE MENU -->
+  <div id="mobileMenu" class="hidden md:hidden bg-white w-full px-6 pt-4 pb-6 shadow-md">
+    <a href="index.html" class="block py-2 text-gray-800 hover:text-blue-500">Beranda</a>
+    <a href="tentang-kami.html" class="block py-2 text-gray-800 hover:text-blue-500">About Us</a>
+    <a href="blog.html" class="block py-2 text-gray-800 hover:text-blue-500">Blog</a>
+    <a href="produk.html" class="block py-2 text-gray-800 hover:text-blue-500">Produk</a>
+  </div>
+</header>
+
+  <!-- Header Blog -->
+  <section class="relative bg-cover bg-center h-[60vh] flex items-center justify-center text-white" style="background-image: url('assets/img/bg3.avif');">
+  <!-- Overlay gelap -->
+  <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+
+  <!-- Konten -->
+  <div class="relative z-10 p-6 rounded-lg text-center">
+    <h2 class="text-4xl font-bold mb-2">Artikel & Blog</h2>
+    <p class="text-lg">Temukan tips, inspirasi, dan cerita menarik seputar dunia souvenir, merchandise, dan promosi usaha.</p>
+  </div>
+</section>
+
+
+  <!-- Daftar Artikel -->
+  <section class="py-12 px-6">
+    <div class="max-w-6xl mx-auto grid sm:grid-cols-2 md:grid-cols-3 gap-8">
+      
+      <!-- Artikel dari Medium -->
+    <div class="bg-white rounded shadow p-4">
+      <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*yYK69xhdywtTnNFEt_wzaA.jpeg" alt="Souvenir Kantor Serbaguna" class="rounded mb-4" />
+      <h3 class="text-lg font-semibold mb-2">Souvenir Kantor Serbaguna Jakarta</h3>
+      <p class="text-sm text-gray-600 mb-3">
+        Souvenir kantor serbaguna bisa jadi strategi branding yang memperkuat loyalitas. Simak manfaat dan rekomendasi produknya di artikel berikut.
+      </p>
+      <a href="https://medium.com/@merchandisekantorpremium/souvenir-kantor-serbaguna-jakarta-d0d71f16f46b"
+        class="text-blue-600 hover:underline text-sm" target="_blank">Baca Selengkapnya →</a>
+    </div>
+
+    <div class="bg-white rounded shadow p-4">
+      <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*7GiLyJtcofZ-iOln3IvCqw.jpeg" alt="Souvenir Kantor Serbaguna" class="rounded mb-4" />
+      <h3 class="text-lg font-semibold mb-2">Souvenir Kantor Elegan dan Unik Jakarta</h3>
+      <p class="text-sm text-gray-600 mb-3">
+       Souvenir kantor memainkan peran penting dalam bisnis modern. Tidak hanya sebagai alat promosi, tetapi juga sebagai media untuk membangun hubungan yang lebih erat dengan klien dan karyawan.
+      </p>
+      <a href="https://medium.com/@souvernirkekinianmalang/souvenir-kantor-elegan-dan-unik-jakarta-1b6b2e9f00d2"
+        class="text-blue-600 hover:underline text-sm" target="_blank">Baca Selengkapnya →</a>
+    </div>
+
+    <div class="bg-white rounded shadow p-4">
+      <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*ZINcWDfB-3TKSPFzY3KSVQ.png" alt="Souvenir Kantor Serbaguna" class="rounded mb-4" />
+      <h3 class="text-lg font-semibold mb-2">Souvenir Kantor Eksklusif, Bikin Kantor Lebih Hidup! | 0821–3108–7971</h3>
+      <p class="text-sm text-gray-600 mb-3">
+       Memilih souvenir kantor yang eksklusif bisa menjadi cara efektif untuk meningkatkan citra dan gengsi perusahaan. Souvenir tidak hanya sebagai pemberian biasa, tetapi juga mencerminkan identitas dan nilai perusahaan.
+      </p>
+      <a href="https://medium.com/@souvenirpremiumbanjarmasin/souvenir-kantor-eksklusif-bikin-kantor-lebih-hidup-0821-3108-7971-64b4ef483257"
+        class="text-blue-600 hover:underline text-sm" target="_blank">Baca Selengkapnya →</a>
+    </div>
+
+
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+<footer class="bg-white-900 text-black text-gray-800 pt-12 px-6">
+  <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10">
+    
+    <!-- Formulir Kontak -->
+    <div>
+      <h3 class="text-2xl font-semibold mb-6">Kirim Pesan</h3>
+      <form class="space-y-4">
+        <input type="text" placeholder="Nama Anda" class="w-full p-3 border rounded" required />
+        <input type="email" placeholder="Email Anda" class="w-full p-3 border rounded" required />
+        <textarea placeholder="Pesan Anda" class="w-full p-3 border rounded h-32" required></textarea>
+        <button type="submit" class="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 w-full">Kirim</button>
+      </form>
+    </div>
+
+    <!-- Google Maps Embed -->
+    <div>
+      <h3 class="text-2xl font-semibold mb-6">Lokasi Kami</h3>
+      <iframe src="https://www.google.com/maps/embed?pb=..."
+        class="w-full h-80 rounded shadow"
+        allowfullscreen=""
+        loading="lazy">
+      </iframe>
+      <!-- Ganti link iframe di atas dengan link Google Maps milikmu -->
+    </div>
+
+  </div>
+
+  <!-- Info Alamat, Layanan, Kontak -->
+  <div class="pt-10 ">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-6 text-sm">
+      
+      <!-- Alamat -->
+      <div>
+        <h4 class="font-semibold text-lg mb-2">Alamat</h4>
+        <p>Jl. Melati No. 12, Jakarta</p>
+      </div>
+
+      <!-- Layanan -->
+      <div>
+        <h4 class="font-semibold text-lg mb-2">Layanan</h4>
+        <p>Souvenir Custom, Order Desain, Produk Ready</p>
+      </div>
+
+      <!-- Kontak + Sosial Media -->
+      <div>
+        <h4 class="font-semibold text-lg mb-2">Kontak</h4>
+        <p>HP: 0812-3456-7890</p>
+        <p>Email: info@sakasouvenir.co.id</p>
+
+        <!-- Ikon Sosial Media -->
+        <div class="flex gap-4 mt-4 text-xl text-gray-700">
+          <a href="https://wa.me/6281234567890" target="_blank" class="hover:text-green-500" aria-label="WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+          <a href="https://instagram.com/sakasouvenir" target="_blank" class="hover:text-pink-500" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://tiktok.com/@sakasouvenir" target="_blank" class="hover:text-black" aria-label="TikTok">
+            <i class="fab fa-tiktok"></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Copyright -->
+    <div class="text-center mt-8 text-xs text-gray-500">
+      &copy; 2025 Saka Souvenir. All rights reserved.
+    </div>
+  </div>
+</footer>
+<!-- WhatsApp Floating Button -->
+<div class="fixed bottom-6 right-6 z-50 flex items-center gap-3 group">
+
+  <!-- Tooltip -->
+  <div class="bg-white text-black font-semibold px-6 py-3 rounded-full shadow-xl scale-0 group-hover:scale-100 transition duration-300 origin-right">
+    Konsultasikan Kebutuhanmu!
+  </div>
+
+  <!-- WhatsApp Icon -->
+  <a href="https://wa.me/6281234567890?text=Halo%20Admin%2C%20saya%20mau%20konsultasi%20souvenir%20ya" 
+     target="_blank"
+     class="relative w-16 h-16 bg-green-500 hover:bg-green-600 flex items-center justify-center rounded-full shadow-xl transition-all duration-300"
+     aria-label="Chat WhatsApp">
+    
+    <i class="fab fa-whatsapp text-white text-3xl"></i>
+
+    <!-- Badge Notifikasi -->
+    <span class="absolute -top-1 -right-1 w-5 h-5 bg-red-500 text-white text-xs font-bold rounded-full flex items-center justify-center">
+      1
+    </span>
+  </a>
+</div>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+ <script src="assets/main.js"></script>
+</body>
+</html>
